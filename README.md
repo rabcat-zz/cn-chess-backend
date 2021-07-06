@@ -19,6 +19,11 @@ export GOROOT="/usr/local/go"
 export PATH=$PATH:$GOROOT/bin
 ```
 
+Enable the system to find AI lib
+```
+export LD_LIBRARY_PATH=~/lib
+```
+
 #### GoLand setup (if you need an IDE, it's not free though):
 
 Import the repo into GoLand.
